@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hepsie]">
+  <test thread-count="5" name="example(failed)">
+    <classes>
+      <class name="dsAlgo_Test.Register_Test">
+        <methods>
+          <include name="callBrowser"/>
+          <include name="verifyRegister"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- dsAlgo_Test.Register_Test -->
+    </classes>
+  </test> <!-- example(failed) -->
+</suite> <!-- Failed suite [Hepsie] -->
