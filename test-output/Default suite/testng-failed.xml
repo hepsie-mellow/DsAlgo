@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dsAlgo_Test.Register_Test">
+      <class name="dsAlgo_TestCases.Datastructure_TestCase">
         <methods>
-          <include name="verifyLogin"/>
-          <include name="homePage"/>
+          <include name="navigateback"/>
+          <include name="crossBrowser"/>
+          <include name="totalModules"/>
+          <include name="setUp"/>
+          <include name="dataStructure"/>
+          <include name="verifyHomepageTitle"/>
         </methods>
-      </class> <!-- dsAlgo_Test.Register_Test -->
+      </class> <!-- dsAlgo_TestCases.Datastructure_TestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
